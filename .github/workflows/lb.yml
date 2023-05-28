@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "dependabot/docker/*"
+  pull_request:
 
 jobs:
   docker:
