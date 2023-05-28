@@ -31,4 +31,4 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           tags: |
-            ghcr.io/bigjazzsound/lb:latest
+            ghcr.io/bigjazzsound/caddy-route53:latest
