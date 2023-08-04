@@ -5,6 +5,9 @@ on:
     branches:
       - "dependabot/docker/*"
 
+permissions:
+  packages: write
+
 jobs:
   docker:
     runs-on: ubuntu-latest
