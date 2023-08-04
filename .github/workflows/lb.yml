@@ -6,6 +6,9 @@ on:
       - "dependabot/docker/*"
   pull_request:
 
+permissions:
+  packages: write
+
 jobs:
   docker:
     runs-on: ubuntu-latest
